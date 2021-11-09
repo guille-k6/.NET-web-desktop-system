@@ -1,0 +1,44 @@
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Business.Logic\bin\Debug\Business.Logic.dll
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Business.Logic\bin\Debug\Business.Logic.pdb
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Business.Logic\bin\Debug\Business.Entities.dll
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Business.Logic\bin\Debug\Data.Database.dll
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Business.Logic\bin\Debug\Business.Entities.pdb
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Business.Logic\bin\Debug\Data.Database.pdb
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Business.Logic\obj\Debug\Business.Logic.csprojAssemblyReference.cache
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Business.Logic\obj\Debug\Business.Logic.csproj.CoreCompileInputs.cache
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Business.Logic\obj\Debug\Business.Logic.csproj.CopyComplete
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Business.Logic\obj\Debug\Business.Logic.dll
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Business.Logic\obj\Debug\Business.Logic.pdb
+C:\Users\guill\Desktop\TP_Fede-master\TP_Fede-master\Business.Logic\bin\Debug\Business.Logic.dll
+C:\Users\guill\Desktop\TP_Fede-master\TP_Fede-master\Business.Logic\bin\Debug\Business.Logic.pdb
+C:\Users\guill\Desktop\TP_Fede-master\TP_Fede-master\Business.Logic\bin\Debug\Business.Entities.dll
+C:\Users\guill\Desktop\TP_Fede-master\TP_Fede-master\Business.Logic\bin\Debug\Data.Database.dll
+C:\Users\guill\Desktop\TP_Fede-master\TP_Fede-master\Business.Logic\bin\Debug\Business.Entities.pdb
+C:\Users\guill\Desktop\TP_Fede-master\TP_Fede-master\Business.Logic\bin\Debug\Data.Database.pdb
+C:\Users\guill\Desktop\TP_Fede-master\TP_Fede-master\Business.Logic\obj\Debug\Business.Logic.csproj.AssemblyReference.cache
+C:\Users\guill\Desktop\TP_Fede-master\TP_Fede-master\Business.Logic\obj\Debug\Business.Logic.csproj.CoreCompileInputs.cache
+C:\Users\guill\Desktop\TP_Fede-master\TP_Fede-master\Business.Logic\obj\Debug\Business.Logic.csproj.CopyComplete
+C:\Users\guill\Desktop\TP_Fede-master\TP_Fede-master\Business.Logic\obj\Debug\Business.Logic.dll
+C:\Users\guill\Desktop\TP_Fede-master\TP_Fede-master\Business.Logic\obj\Debug\Business.Logic.pdb
+C:\Users\Federico\source\TP2-V1.0\Business.Logic\bin\Debug\Business.Logic.dll
+C:\Users\Federico\source\TP2-V1.0\Business.Logic\bin\Debug\Business.Logic.pdb
+C:\Users\Federico\source\TP2-V1.0\Business.Logic\bin\Debug\Business.Entities.dll
+C:\Users\Federico\source\TP2-V1.0\Business.Logic\bin\Debug\Data.Database.dll
+C:\Users\Federico\source\TP2-V1.0\Business.Logic\bin\Debug\Business.Entities.pdb
+C:\Users\Federico\source\TP2-V1.0\Business.Logic\bin\Debug\Data.Database.pdb
+C:\Users\Federico\source\TP2-V1.0\Business.Logic\obj\Debug\Business.Logic.csprojAssemblyReference.cache
+C:\Users\Federico\source\TP2-V1.0\Business.Logic\obj\Debug\Business.Logic.csproj.CoreCompileInputs.cache
+C:\Users\Federico\source\TP2-V1.0\Business.Logic\obj\Debug\Business.Logic.csproj.CopyComplete
+C:\Users\Federico\source\TP2-V1.0\Business.Logic\obj\Debug\Business.Logic.dll
+C:\Users\Federico\source\TP2-V1.0\Business.Logic\obj\Debug\Business.Logic.pdb
+C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\Business.Logic\bin\Debug\Business.Logic.dll
+C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\Business.Logic\bin\Debug\Business.Logic.pdb
+C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\Business.Logic\bin\Debug\Business.Entities.dll
+C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\Business.Logic\bin\Debug\Data.Database.dll
+C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\Business.Logic\bin\Debug\Business.Entities.pdb
+C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\Business.Logic\bin\Debug\Data.Database.pdb
+C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\Business.Logic\obj\Debug\Business.Logic.csproj.AssemblyReference.cache
+C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\Business.Logic\obj\Debug\Business.Logic.csproj.CoreCompileInputs.cache
+C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\Business.Logic\obj\Debug\Business.Logic.csproj.CopyComplete
+C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\Business.Logic\obj\Debug\Business.Logic.dll
+C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\Business.Logic\obj\Debug\Business.Logic.pdb

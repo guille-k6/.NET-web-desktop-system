@@ -1,0 +1,6 @@
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Util\bin\Debug\Util.dll
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Util\bin\Debug\Util.pdb
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Util\obj\Debug\Util.csprojAssemblyReference.cache
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Util\obj\Debug\Util.csproj.CoreCompileInputs.cache
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Util\obj\Debug\Util.dll
+C:\Users\Federico\source\TP2 L05 - 4 ABM\Util\obj\Debug\Util.pdb
