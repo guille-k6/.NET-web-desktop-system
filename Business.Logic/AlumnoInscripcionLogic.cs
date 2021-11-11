@@ -43,7 +43,64 @@ namespace Business.Logic
 
         public void Save(Business.Entities.AlumnoInscripcion alu)
         {
-            AlumnoData.Save(alu);
+            if (alu.State == BusinessEntities.States.New)
+            {
+                try
+                {
+                    ValidarLogic(alu.IDCurso, BusinessEntities.States.New);
+                    AlumnoData.Save(alu);
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message); // acá tira el error de que no hay cupo de ValidarLogic
+                }
+            }
+            else
+            {
+                try
+                {
+                    ValidarLogic(alu.IDCurso, BusinessEntities.States.Modified);
+                    AlumnoData.Save(alu);
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message);
+                }
+            }
+
+
         }
+
+        public void ValidarLogic(int idCurso, Business.Entities.Curso.States estado)
+        {
+            CursoAdapter curAdapter = new CursoAdapter();
+            var losCursos = new List<Business.Entities.Curso>();
+            losCursos = curAdapter.GetAll();
+            foreach (Business.Entities.Curso element in losCursos)
+            {
+                if (element.ID == Convert.ToInt32(idCurso))
+                {
+                    Curso elCurso = new Curso();
+                    elCurso = curAdapter.GetOne(element.ID);
+                    if(elCurso.Cupo > 0 && estado == BusinessEntities.States.New)
+                    {
+                        elCurso.Cupo = elCurso.Cupo - 1;
+                        elCurso.State = Curso.States.Modified;
+                        curAdapter.Save(elCurso);
+                    }
+                    else if(elCurso.Cupo > 0 && estado == BusinessEntities.States.Modified)
+                    {
+                        elCurso.State = Curso.States.Modified;
+                        curAdapter.Save(elCurso);
+                    }
+                    else
+                    {
+                        throw new Exception("No hay cupo disponible para el curso: " + elCurso.ID.ToString());
+                    }
+                }
+            }
+        }
+
+
     }
 }

@@ -166,25 +166,10 @@ namespace UI.Desktop
             val1 = this.cbIDAlumno.Text != String.Empty
             && this.cbIDCurso.Text != String.Empty
             && this.txtCondicion.Text != String.Empty;
-           
-            int a=2, capacidad = 0;
 
-            CursoAdapter curAdapter = new CursoAdapter();
-            var losCursos = new List<Business.Entities.Curso>();
-            losCursos = curAdapter.GetAll();
-            foreach (Business.Entities.Curso element in losCursos)
-            {
-                if (element.ID == Convert.ToInt32(cbIDCurso.Text))
-                {
-                    capacidad = element.Cupo;
-                }
-            }
-            if (capacidad < 1)
-            {
-                Notificar("Curso lleno", "No quedan mas cupos para este curso.", (MessageBoxButtons)0, (MessageBoxIcon)48);
-                return false;
-            }
-            else if (!Int32.TryParse(this.txtNota.Text, out a) && this.txtNota.Text != "")
+            int a = 2; 
+            
+            if (!Int32.TryParse(this.txtNota.Text, out a) && this.txtNota.Text != "")
             {
                 Notificar("Nota inválida", "La nota debe ser un numero entero entre 1 y 10.", (MessageBoxButtons)0, (MessageBoxIcon)48);
                 return false;
@@ -240,29 +225,16 @@ namespace UI.Desktop
             }
             else if (Validar())
             {
-                if ((this.Modo == ApplicationForm.ModoForm.Alta))
+                try
                 {
-                    int a = 2, capacidad = 0;
-
-                    CursoAdapter curAdapter = new CursoAdapter();
-                    var losCursos = new List<Business.Entities.Curso>();
-                    losCursos = curAdapter.GetAll();
-                    foreach (Business.Entities.Curso element in losCursos)
-                    {
-                        if (element.ID == Convert.ToInt32(cbIDCurso.Text))
-                        {
-                            Curso elCurso = new Curso();
-                            elCurso = curAdapter.GetOne(element.ID);
-                            elCurso.Cupo = elCurso.Cupo - 1;
-                            elCurso.State = Curso.States.Modified;
-                            curAdapter.Save(elCurso);
-                            capacidad = element.Cupo;
-                        }
-                    }
-                    
+                    GuardarCambios(); // este es el Save
                 }
-                GuardarCambios();
+                catch (Exception ex)
+                {
+                     Notificar("Error de inscripcion", ex.Message, (MessageBoxButtons)0, (MessageBoxIcon)48);
+                }
                 Close();
+
             }
         }
 

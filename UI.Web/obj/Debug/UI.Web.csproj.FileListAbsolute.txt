@@ -317,3 +317,4 @@ C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\UI.Web\obj\Debug\UI.Web.c
 C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\UI.Web\obj\Debug\UI.Web.csproj.CoreCompileInputs.cache
 C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\UI.Web\obj\Debug\UI.Web.dll
 C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\UI.Web\obj\Debug\UI.Web.pdb
+C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\UI.Web\obj\Debug\UI.Web.csproj.CopyComplete

@@ -617,3 +617,4 @@ C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\UI.Desktop\obj\Debug\RdlC
 C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\UI.Desktop\obj\Debug\UI.Desktop.csproj.CoreCompileInputs.cache
 C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\UI.Desktop\obj\Debug\UI.Desktop.exe
 C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\UI.Desktop\obj\Debug\UI.Desktop.pdb
+C:\Users\guill\Downloads\TP2-1.0-master\TP2-1.0-master\UI.Desktop\obj\Debug\UI.Desktop.csproj.CopyComplete
